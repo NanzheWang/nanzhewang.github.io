@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
+<!--
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -32,5 +32,13 @@ author_profile: true
   {% endfor %}
 {% endif %}
 
+-->
+
+### Journal Publications
+ 
+[1] **Wang, N.**, Zhang, D., Chang, H., & Li, H. (2020). Deep learning of subsurface flow via theory-guided neural network. Journal of Hydrology, 584, 124700.
+    [[Download Paper]](https://doi.org/10.1016/j.jhydrol.2020.124700)
 
 
+
+### Conference Proceedings 
