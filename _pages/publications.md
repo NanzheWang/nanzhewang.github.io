@@ -7,7 +7,7 @@ author_profile: true
 
 
 
-Publications
+Publications:
   - title: "Deep-learning-based inverse modeling approaches: A subsurface flow example"
     authors: "Nanzhe Wang, Haibin Chang, Dongxiao Zhang"
     venue: "Journal of Geophysical Research: Solid Earth"
