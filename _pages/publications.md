@@ -3,7 +3,34 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+
+
+publications:
+  - title: "Deep-learning-based inverse modeling approaches: A subsurface flow example"
+    authors: "Wang, Nanzhe; Chang, Haibin; Zhang, Dongxiao"
+    venue: "Journal of Geophysical Research: Solid Earth"
+    year: 2021
+    url: "https://doi.org/10.1029/2020JB020549"
+    
+
+  - title: "Efficient uncertainty quantification for dynamic subsurface flow with surrogate by theory-guided neural network"
+    authors: "Nanzhe Wang, Haibin Chang, Dongxiao Zhang"
+    venue: "Computer Methods in Applied Mechanics and Engineering"
+    year: 2021
+    url: "https://doi.org/10.1016/j.cma.2020.113492"
+
+
+
+
 ---
+
+{% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
+{% for pub in sorted_pubs %}
+- <strong>{{ pub.authors }}</strong> ({{ pub.year }}).  
+  <em>{{ pub.title }}</em>. *{{ pub.venue }}*.  
+  {% if pub.url %}[DOI]({{ pub.url }}){% endif %}
+  {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
+{% endfor %}
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
