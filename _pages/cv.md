@@ -38,6 +38,23 @@ Service and leadership
 * **Journal Reviewer**: Water Resources Research, SPE Journal, Journal of Computational Physics, Rock Mechanics and Rock Engineering, Geoenergy Science and Engineering, Computational Geosciences, Applied Energy, Mathematical Geosciences, Reliability Engineering & System Safety, IEEE Transactions on Pattern Analysis and Machine Intelligence, Scientific Reports, Frontiers in Applied Mathematics and Statistics
 * **Conference Paper Reviewer**: ARMA 2024-58th US Rock Mechanics-Geomechanics Symposium, ARMA 2025-59th US Rock Mechanics-Geomechanics Symposium
 
+Honors and Awards
+======
+* Outstanding Doctoral Dissertation (Peking University), 2023
+* Outstanding Graduate (Peking University), 2023
+* May 4th Scholarship (Peking University), 2022
+* President’s Scholarship (Peking University), 2021, 2022
+* Top Ten Scholars of the College of Engineering (Peking University), 2022
+* Leo KoGuan Scholarship (Peking University), 2021
+* Merit Student (Peking University), 2020, 2021, 2022
+* Exceptional Award for Academic Innovation (Peking University), 2020, 2021, 2022
+* Dean’s Scholarship of College of Engineering (Peking University), 2020, 2021
+* Boeing First-class Scholarship (Peking University), 2020
+* Outstanding graduate of Beijing, 2018
+* National Scholarship, 2015, 2016, 2017
+* Merit Student of Beijing, 2017
+* Best Undergraduate Scholarship (China University of Petroleum), 2017
+
 
 <!--
   
