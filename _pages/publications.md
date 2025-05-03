@@ -27,13 +27,7 @@ Publications:
 ---
 
 
-{% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
-{% for pub in sorted_pubs %}
-- <strong>{{ pub.authors }}</strong> ({{ pub.year }}).  
-  <em>{{ pub.title }}</em>. *{{ pub.venue }}*.  
-  {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
-  {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
-{% endfor %}
+
 
 
 {% if site.author.googlescholar %}
@@ -41,7 +35,13 @@ Publications:
 {% endif %}
 
 
-
+{% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
+{% for pub in sorted_pubs %}
+- <strong>{{ pub.authors }}</strong> ({{ pub.year }}).  
+  <em>{{ pub.title }}</em>. *{{ pub.venue }}*.  
+  {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
+  {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
+{% endfor %}
 
 
 
