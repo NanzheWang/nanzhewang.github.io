@@ -22,7 +22,7 @@ repository               : #"academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/assets/images/headshot.jpg"
+  avatar           : "/images/headshot.jpg"
   name             : "Nanzhe Wang"
   pronouns         : "He/His"  
   bio              : "Subsurface flow, surrogate modeling, uncertainty quantification, data assimilation, scientific machine learning"
