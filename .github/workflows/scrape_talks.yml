@@ -1,17 +1,15 @@
 name: Scrape Talk Locations
 
-on:
-  push:
-    paths:
-      - 'talks/**'
-      - 'talkmap.ipynb'
+#on:
+#  push:
+#    paths:
+#      - 'talks/**'
+#      - 'talkmap.ipynb'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
 
     steps:
     - uses: actions/checkout@v2
