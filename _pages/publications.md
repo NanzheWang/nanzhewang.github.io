@@ -27,19 +27,18 @@ publications:
 ---
 
 
-
-
-
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 
+### Journal Publications
+
 {% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
 {% for pub in sorted_pubs %}
 - <strong>{{ pub.authors }}</strong> ({{ pub.year }}).  
   <em>{{ pub.title }}</em>. *{{ pub.venue }}*.  
-  {% if pub.url %}[DOI]({{ pub.url }}){% endif %}
+  {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
   {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
 {% endfor %}
 
@@ -71,7 +70,7 @@ publications:
 {% endif %}
 
 -->
-
+<!--
 ### Journal Publications
  
 [1] **Wang, N.**, Zhang, D., Chang, H., & Li, H. (2020). Deep learning of subsurface flow via theory-guided neural network. Journal of Hydrology, 584, 124700.
@@ -80,3 +79,4 @@ publications:
 
 
 ### Conference Proceedings 
+-->
