@@ -71,7 +71,7 @@ Publications:
 {% endif %}
 
 -->
-<!--
+
 ### Journal Publications
  
 [1] **Wang, N.**, Zhang, D., Chang, H., & Li, H. (2020). Deep learning of subsurface flow via theory-guided neural network. Journal of Hydrology, 584, 124700.
@@ -80,4 +80,3 @@ Publications:
 
 
 ### Conference Proceedings 
--->
