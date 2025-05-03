@@ -74,11 +74,8 @@ publications:
 
 {% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
 {% for pub in sorted_pubs %}
-- {{ pub.authors | markdownify }} ({{ pub.year }}).  
-  <em>{{ pub.title }}</em>. *{{ pub.venue }}*
-  {% if pub.volume %}, <strong>{{ pub.volume }}</strong>{% endif %}
-  {% if pub.issue %}({{ pub.issue }}){% endif %}
-  {% if pub.pages %}: {{ pub.pages }}{% endif %}.  
+- {{ pub.authors | markdownify}}({{ pub.year }}).  
+  <em>{{ pub.title }}</em>. *{{ pub.venue }}*{% if pub.volume %}, <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}.  
   {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
   {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
 {% endfor %}
