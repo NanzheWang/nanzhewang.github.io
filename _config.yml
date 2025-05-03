@@ -26,8 +26,8 @@ author:
   name             : "Nanzhe Wang"
   pronouns         : "He/His"  
   bio              : "Postdoctoral Scholar at Stanford University"#"Subsurface flow, surrogate modeling, uncertainty quantification, data assimilation, scientific machine learning"
-  location         : #"Earth"
-  employer         : "Stanford University"
+  location         : "Stanford, CA, USA"
+  employer         : #"Stanford University"
   uri              : # URL
   email            : "nzwang@stanford.edu" 
 
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "http://linkedin.com/in/nanzhe-wang-9459b4166"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
