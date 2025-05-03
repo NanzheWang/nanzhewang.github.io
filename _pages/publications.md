@@ -9,7 +9,10 @@ author_profile: true
 
 publications:
   - title: "Deep-learning-based inverse modeling approaches: A subsurface flow example"
-    authors: "**Nanzhe Wang**, Haibin Chang, Dongxiao Zhang"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
     venue: "Journal of Geophysical Research: Solid Earth"
     year: 2021
     volume: 126
@@ -19,7 +22,10 @@ publications:
     
 
   - title: "Efficient uncertainty quantification for dynamic subsurface flow with surrogate by theory-guided neural network"
-    authors: "**Nanzhe Wang**, Haibin Chang, Dongxiao Zhang"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
     venue: "Computer Methods in Applied Mechanics and Engineering"
     year: 2021
     volume: 373
@@ -29,7 +35,11 @@ publications:
 
 
   - title: "Deep learning of subsurface flow via theory-guided neural network"
-    authors: "**Nanzhe Wang**, Dongxiao Zhang, Haibin Chang, Heng Li"
+    authors:
+     - "Nanzhe Wang"
+     - "Dongxiao Zhang"
+     - "Haibin Chang"
+     - "Heng Li"
     venue: "Journal of Hydrology"
     year: 2020
     volume: 584
@@ -37,7 +47,10 @@ publications:
     url: "https://doi.org/10.1016/j.jhydrol.2020.124700"
 
   - title: "Theory-guided auto-encoder for surrogate construction and inverse modeling"
-    authors: "**Nanzhe Wang**, Haibin Chang, Dongxiao Zhang"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
     venue: "Computer Methods in Applied Mechanics and Engineering"
     year: 2021
     volume: 385
@@ -46,7 +59,12 @@ publications:
 
 
   - title: "Efficient well placement optimization based on theory-guided convolutional neural network"
-    authors: "**Nanzhe Wang**, Haibin Chang, Dongxiao Zhang, Liang Xue, Yuntian Chen"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
+     - "Liang Xue"
+     - "Yuntian Chen"
     venue: "Journal of Petroleum Science and Engineering"
     year: 2022
     volume: 208
@@ -54,7 +72,10 @@ publications:
     url: "https://doi.org/10.1016/j.petrol.2021.109545"
 
   - title: "Surrogate and inverse modeling for two-phase flow in porous media via theory-guided convolutional neural network"
-    authors: "**Nanzhe Wang**, Haibin Chang, Dongxiao Zhang"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
     venue: "Journal of Computational Physics"
     year: 2022
     volume: 466
@@ -71,10 +92,16 @@ publications:
 
 
 ### Journal Publications
-
+{% assign my_name = "Nanzhe Wang" %}
 {% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
 {% for pub in sorted_pubs %}
-- {{ pub.authors | markdownify}}({{ pub.year }}).  
+- {% for author in pub.authors %}
+    {% if author == my_name %}
+      <strong>{{ author }}</strong>{% unless forloop.last %}; {% endunless %}
+    {% else %}
+      {{ author }}{% unless forloop.last %}; {% endunless %}
+    {% endif %}
+  {% endfor %} ({{ pub.year }}).  
   <em>{{ pub.title }}</em>. *{{ pub.venue }}*{% if pub.volume %}, <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}.  
   {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
   {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
