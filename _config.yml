@@ -15,14 +15,14 @@ name                     : &name "Nanzhe Wang"
 description              : &description "personal description"
 url                      : "https://nanzhewang.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : #"academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "assets/images/headshot.jpg"
+  avatar           : "/assets/images/headshot.jpg"
   name             : "Nanzhe Wang"
   pronouns         : "He/His"  
   bio              : "Subsurface flow, surrogate modeling, uncertainty quantification, data assimilation, scientific machine learning"
