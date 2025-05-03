@@ -95,14 +95,20 @@ publications:
 {% assign my_name = "Nanzhe Wang" %}
 {% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
 {% for pub in sorted_pubs %}
-- {% for author in pub.authors %}
+  {% assign author_line = "" %}
+  {% for author in pub.authors %}
     {% if author == my_name %}
-      <strong>{{ author }}</strong>{% unless forloop.last %}; {% endunless %}
+      {% assign formatted_author = "<strong>" | append: author | append: "</strong>" %}
     {% else %}
-      {{ author }}{% unless forloop.last %}; {% endunless %}
+      {% assign formatted_author = author %}
     {% endif %}
-  {% endfor %} ({{ pub.year }}).  
-  <em>{{ pub.title }}</em>. *{{ pub.venue }}*{% if pub.volume %}, <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}.  
+    {% if forloop.last %}
+      {% assign author_line = author_line | append: formatted_author %}
+    {% else %}
+      {% assign author_line = author_line | append: formatted_author | append: "; " %}
+    {% endif %}
+  {% endfor %}
+- {{ author_line }} ({{ pub.year }}). <em>{{ pub.title }}</em>. *{{ pub.venue }}*{% if pub.volume %}, <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}.  
   {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
   {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
 {% endfor %}
