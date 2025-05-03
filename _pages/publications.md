@@ -82,6 +82,90 @@ publications:
     pages: "111419"
     url: "https://doi.org/10.1016/j.jcp.2022.111419"
 
+  - title: "Efficient uncertainty quantification and data assimilation via theory-guided convolutional neural network"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
+    venue: "SPE Journal"
+    year: 2021
+    pages: "1-29"
+    url: "https://doi.org/10.2118/203904-PA"
+
+
+  - title: "Deep learning based closed-loop well control optimization of geothermal reservoir with uncertain permeability"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Xiang-Zhao Kong"
+     - "Dongxiao Zhang"
+    venue: "Renewable Energy"
+    year: 2023
+    volume: 211
+    pages: "379-394"
+    url: "https://doi.org/10.1016/j.renene.2023.04.088"
+
+
+  - title: "Inverse modeling for subsurface flow based on deep learning surrogates and active learning strategies"
+    authors:
+     - "Nanzhe Wang"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
+    venue: "Water Resources Research"
+    year: 2023
+    volume: 59
+    issue: 7
+    pages: "e2022WR033644"
+    url: "https://doi.org/10.1029/2022WR033644"
+
+
+  - title: "Physics‐Informed Convolutional Decoder (PICD): A novel approach for direct inversion of heterogeneous subsurface flow"
+    authors:
+     - "Nanzhe Wang"
+     - "Xiang‐Zhao Kong"
+     - "Dongxiao Zhang"
+    venue: "Geophysical Research Letters"
+    year: 2024
+    volume: 51
+    issue: 13
+    pages: "e2024GL108163"
+    url: "https://doi.org/10.1029/2024GL108163"
+
+
+  - title: "Deep-learning-based upscaling method for geologic models via theory-guided convolutional neural network"
+    authors:
+     - "Nanzhe Wang"
+     - "Qinzhuo Liao"
+     - "Haibin Chang"
+     - "Dongxiao Zhang"
+    venue: "Computational Geosciences"
+    year: 2023
+    volume: 27
+    issue: 6
+    pages: "913-938"
+    url: "https://doi.org/10.1007/s10596-023-10233-2"
+
+  - title: "Deep learning framework for history matching CO2 storage with 4D seismic and monitoring well data"
+    authors:
+     - "Nanzhe Wang"
+     - "Louis J. Durlofsky"
+    venue: "Geoenergy Science and Engineering"
+    year: 2025
+    pages: 213736
+    url: "https://doi.org/10.1016/j.geoen.2025.213736"
+
+
+  - title: "A comprehensive review of physics-informed deep learning and its applications in geoenergy development"
+    authors:
+     - "Nanzhe Wang"
+     - "Yuntian Chen"
+     - "Dongxiao Zhang"
+    venue: "The Innovation Energy"
+    year: 2025
+    volume: 2
+    issue: 2
+    pages: "100087-1-100087-15"
+    url: "https://doi.org/10.59717/j.xinn-energy.2025.100087"
 
 ---
 
