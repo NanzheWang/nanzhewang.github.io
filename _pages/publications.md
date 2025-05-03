@@ -26,9 +26,6 @@ author_profile: true
 
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% assign sorted_pubs = page.publications | sort: 'year' | reverse %}
 {% for pub in sorted_pubs %}
@@ -37,6 +34,11 @@ author_profile: true
   {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
   {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
 {% endfor %}
+
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
 
 
