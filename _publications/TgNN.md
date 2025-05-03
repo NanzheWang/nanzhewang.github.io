@@ -1,7 +1,7 @@
 ---
 title: "Deep learning of subsurface flow via theory-guided neural network"
 collection: publications
-permalink: /publication/tgnn
+permalink: /publication/TgNN.md
 #excerpt: 'This work proposes a deep learning approach for seismic monitoring of CO₂ injection.'
 date: 2020-02-19
 venue: 'Journal of Hydrology'
