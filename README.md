@@ -1,1 +1,1 @@
-# This is Nanzhe Wang's website, powered by [Jekyll](https://jekyllrb.com/) and [AcademicPages](https://github.com/academicpages/academicpages.github.io), a fork of [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
+This is Nanzhe Wang's website, powered by [Jekyll](https://jekyllrb.com/) and [AcademicPages](https://github.com/academicpages/academicpages.github.io), a fork of [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
