@@ -1,7 +1,7 @@
 ---
 title: "GeoKids program"
 collection: teaching
-#type: "Undergraduate course"
+type: "2nd grade class"
 permalink: /teaching/2024-geokids
 venue: "Stanford University"
 date: 2024-10-24
