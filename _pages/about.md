@@ -6,8 +6,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+Hello! I'm Nanzhe Wang, a Postdoctoral Scholar in the Department of Energy Science and Engineering at Stanford University, working under the guidance of [Prof. Louis J. Durlofsky] (https://profiles.stanford.edu/louis-durlofsky). I completed my PhD in the Department of Energy and Resources Engineering at Peking University, where I was advised by [Prof. Dongxiao Zhang] (https://en.coe.pku.edu.cn/faculty/facultyaz/891192.htm). Prior to that, I earned my Bachelor's degree in Petroleum Engineering from China University of Petroleum (Beijing).
+
+My research focuses on sustainable geoenergy development and subsurface resources management, including geological carbon storage, geothermal energy production, hydrocarbon extraction, and water resource management. The key of these efforts is subsurface flow modeling, which is critical for the efficient and safe development of geoenergy and subsurface resources.
+Subsurface flow modeling is inherently uncertain due to the complexity of geological systems and limited observational data. This uncertainty can lead to inaccurate forecasts, suboptimal decision-making, and increased operational risks. My work addresses these challenges by integrating numerical simulation, deep learning, statistical and optimization methods, domain knowledge, and diverse data types. Specifically, I develop methodologies to quantify and reduce uncertainties in subsurface flow modeling, monitor subsurface behaviors, and forecast future responses. These methods provide actionable insights for optimizing subsurface operations, mitigating risks, and improving the safety and efficiency of subsurface energy/resources development.
+
+
 <!--
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+
 
 A data-driven personal website
 ======
