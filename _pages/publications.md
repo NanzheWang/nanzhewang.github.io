@@ -89,7 +89,9 @@ publications:
      - "Dongxiao Zhang"
     venue: "SPE Journal"
     year: 2021
-    pages: "1-29"
+    volume: 26
+    issue: 06
+    pages: "4128–4156"
     url: "https://doi.org/10.2118/203904-PA"
 
 
@@ -151,6 +153,7 @@ publications:
      - "Louis J. Durlofsky"
     venue: "Geoenergy Science and Engineering"
     year: 2025
+    volume: 248
     pages: 213736
     url: "https://doi.org/10.1016/j.geoen.2025.213736"
 
