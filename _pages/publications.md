@@ -192,7 +192,7 @@ publications:
       {% assign author_line = author_line | append: formatted_author | append: "; " %}
     {% endif %}
   {% endfor %}
-- {{ author_line }} ({{ pub.year }}). <em>{{ pub.title }}</em>. *{{ pub.venue }}*{% if pub.volume %}, <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}.  
+- {{ author_line }} ({{ pub.year }}). <em>{{ pub.title }}</em>. <strong>*{{ pub.venue }}*{% if pub.volume %}</strong>, {{ pub.volume }}{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}.  
   {% if pub.url %}[Download Paper]({{ pub.url }}){% endif %}
   {% if pub.pdf %}| [PDF]({{ pub.pdf }}){% endif %}
 {% endfor %}
@@ -225,13 +225,4 @@ publications:
 {% endif %}
 
 -->
-<!--
-### Journal Publications
- 
-[1] **Wang, N.**, Zhang, D., Chang, H., & Li, H. (2020). Deep learning of subsurface flow via theory-guided neural network. Journal of Hydrology, 584, 124700.
-    [[Download Paper]](https://doi.org/10.1016/j.jhydrol.2020.124700)
 
-
-
-### Conference Proceedings 
--->
