@@ -9,26 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Energy and Resources Engineering, Peking University, 2023
-  * Supervisor: Prof. Dongxiao Zhang (Member, National Academy of Engineering)
-  * Research topic: Research on Theory-guided Deep Learning Models for Subsurface Flow Problems.
-* Bachelors in Petroleum Engineering, China University of Petroleum (Beijing), 2018
 
 Work experience
 ======
-* Postdoctoral Scholar, Stanford University, Sept. 2023 - present
+* Assistant Professor, Heriot-Watt University, Aug. 2025 - present
+  * Department/Institute: Institute for GeoEnergy Engineering
+  * Research Areas: Data Science, Artificial Intelligence & Machine Learning
+
+* Postdoctoral Scholar, Stanford University, Sept. 2023 - Aug. 2025
   * Supervisor: Prof. Louis Durlofsky (Member, National Academy of Engineering)
   * Research topic: Deep Learning Models and Data Assimilation Algorithms for Geological Carbon Storage.
 
 * Software Engineer Intern, Schlumberger Technologies (Beijing) Ltd., Mar. 2018 – Sept. 2019
   * Supervisor: Dr. Gongrui Yan
   * Research Topic 1: Geomechanics algorithms for well track design and wellbore stability analysis.
-  * Research Topic 2: Geomechanics algorithms for formation pore pressure and fracture pressure prediction.
+  * Research Topic 2: Machine learning models for formation pressure prediction.
 
 
-
+Education
+======
+* Ph.D in Energy and Resources Engineering, Peking University, 2023
+  * Supervisor: Prof. Dongxiao Zhang (Member, National Academy of Engineering)
+  * Research topic: Research on Theory-guided Deep Learning Models for Subsurface Flow Problems.
+* Bachelors in Petroleum Engineering, China University of Petroleum (Beijing), 2018
+  * GPA: 4.52/5.0
+  * Comprehensive ranking: 1/192   
 
 
 Service and leadership
@@ -50,9 +55,9 @@ Honors and Awards
 * Exceptional Award for Academic Innovation (Peking University), 2020, 2021, 2022
 * Dean’s Scholarship of College of Engineering (Peking University), 2020, 2021
 * Boeing First-class Scholarship (Peking University), 2020
-* Outstanding graduate of Beijing, 2018
-* National Scholarship, 2015, 2016, 2017
-* Merit Student of Beijing, 2017
+* Outstanding graduate of Beijing (Beijing Municipal Education Commission), 2018
+* National Scholarship (Ministry of Education of the People’s Republic of China), 2015, 2016, 2017
+* Merit Student of Beijing (Beijing Municipal Education Commission), 2017
 * Best Undergraduate Scholarship (China University of Petroleum), 2017
 
 
