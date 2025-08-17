@@ -25,11 +25,11 @@ author:
   avatar           : "headshot.jpg"
   name             : "Nanzhe Wang"
   pronouns         : "He/His"  
-  bio              : "Postdoctoral Scholar at Stanford University"#"Subsurface flow, surrogate modeling, uncertainty quantification, data assimilation, scientific machine learning"
-  location         : "Stanford, CA, USA"
-  employer         : #"Stanford University"
+  bio              : "Assistant Professor at Heriot-Watt University"#"Subsurface flow, surrogate modeling, uncertainty quantification, data assimilation, scientific machine learning"
+  location         : "Edinburgh, Scotland, United Kingdom"
+  employer         : #"Heriot-Watt University"
   uri              : # URL
-  email            : "nzwang@stanford.edu" 
+  email            : "nanzhe.wang@hw.ac.uk" 
 
   # Academic websites
   academia         : # URL
